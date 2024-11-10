@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "lib": ["dom", "es5", "es6"],
+      "target": "es6",
+      "module": "NodeNext",
+      "outDir": "./dist",
+      "baseUrl": ".",
+      "paths": {
+        "@src/*": ["src/*"],
+      },
+      "moduleResolution": "NodeNext",
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "esModuleInterop": true
+    },
+    "exclude": ["node_modules", "tests", "dist"],
+    "include": ["src/**/*"]
+  }
+  
